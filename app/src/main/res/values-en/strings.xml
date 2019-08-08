@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TV Movies</string>
+    <string name="content_description">todo</string>
+    <string name="overview">Overview</string>
+    <string name="title_movie">Movies</string>
+    <string name="settings">Settings</string>
+    <string name="title_tv">TV Shows</string>
+    <string name="favorite">Favorite</string>
+</resources>

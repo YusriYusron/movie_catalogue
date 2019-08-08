@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size_16"
+        tools:context=".view.DetailActivity">
+
+        <ImageView
+            android:id="@+id/image_movies"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_300"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/ic_launcher_background"
+            android:contentDescription="@string/content_description"/>
+
+        <TextView
+            android:id="@+id/title_movies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/image_movies"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="@string/title_movie"
+            android:textSize="@dimen/font_24"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/size_16"/>
+
+        <TextView
+            android:id="@+id/overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/title_movies"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/overview"
+            android:layout_marginTop="@dimen/size_16"
+            android:textSize="@dimen/font_24"/>
+
+        <TextView
+            android:id="@+id/overview_movies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/overview"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="@string/overview"
+            android:layout_marginBottom="@dimen/size_16"/>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
