@@ -3,13 +3,14 @@ package com.yusriyusron.tvmovies.controller.adapter;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.yusriyusron.tvmovies.R;
@@ -52,7 +53,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesTvVi
             @Override
             public void onClick(View view) {
                 movies = listMovie.get(i);
-                makeIntent(DetailActivity.class);
+                makeIntent();
             }
         });
     }
@@ -62,12 +63,12 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesTvVi
         return listMovie.size();
     }
 
-    public class MoviesTvViewHolder extends RecyclerView.ViewHolder {
+    class MoviesTvViewHolder extends RecyclerView.ViewHolder {
         final ImageView imageViewMovie;
         final TextView textViewTitleMovie;
         final TextView textViewOverviewMovie;
 
-        public MoviesTvViewHolder(@NonNull View itemView) {
+        MoviesTvViewHolder(@NonNull View itemView) {
             super(itemView);
             imageViewMovie = itemView.findViewById(R.id.image_movies);
             textViewTitleMovie = itemView.findViewById(R.id.title_movie);
@@ -75,8 +76,8 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesTvVi
         }
     }
 
-    private void makeIntent(Class destination){
-        Intent intent = new Intent(context,destination);
+    private void makeIntent(){
+        Intent intent = new Intent(context,DetailActivity.class);
         intent.putExtra(DetailActivity.MOVIES,movies);
         context.startActivity(intent);
         ((Activity)context).finish();

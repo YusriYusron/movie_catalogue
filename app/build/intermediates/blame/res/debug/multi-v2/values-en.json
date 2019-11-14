@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Asus\\Music\\Si Ateng\\KP\\Dicoding\\Project\\Submission\\FIX\\movie_catalogue\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Asus\\Music\\Si Ateng\\KP\\Dicoding\\Project\\Submission\\FIX\\movie_catalogue\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "1,2,14,15,8,7,10,11,3,12,13,9,5,4,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "17,65,727,786,355,308,465,512,119,567,630,422,214,166,261",
+                        "endColumns": "46,52,57,74,65,45,45,53,45,61,95,41,45,46,45",
+                        "endOffsets": "59,113,780,856,416,349,506,561,160,624,721,459,255,208,302"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,102,155,213,288,354,400,446,500,546,608,704,746,792,839",
+                        "endColumns": "46,52,57,74,65,45,45,53,45,61,95,41,45,46,45",
+                        "endOffsets": "97,150,208,283,349,395,441,495,541,603,699,741,787,834,880"
+                    }
+                }
+            ]
+        }
+    ]
+}

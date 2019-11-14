@@ -6,6 +6,12 @@
     <string name="settings">Pengaturan</string>
     <string name="title_tv">Acara TV</string>
     <string name="favorite">Disukai</string>
-    <string name="data_not_avalilable">Data Not Avalilable</string>
-    <string name="search">Search</string>
+    <string name="data_not_available">Data Tidak Ditemukan</string>
+    <string name="search">Cari</string>
+    <string name="language">Bahasa</string>
+    <string name="language_value">Indonesia</string>
+    <string name="release_reminder">Pengingat Rilis</string>
+    <string name="release_reminder_desc">Pengingat menunjukkan film yang dirilis hari ini</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="daily_reminder_desc">Pengingat harian untuk di aplikasi</string>
 </resources>

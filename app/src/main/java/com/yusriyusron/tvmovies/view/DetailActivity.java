@@ -1,14 +1,17 @@
 package com.yusriyusron.tvmovies.view;
 
+import android.content.ContentValues;
 import android.content.Intent;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.bumptech.glide.Glide;
 import com.yusriyusron.tvmovies.R;
@@ -33,6 +36,8 @@ public class DetailActivity extends AppCompatActivity {
     private TvShow tvShows;
 
     private DbHelper helper;
+
+    private Uri uriWithId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -137,18 +142,31 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     public void saveToDatabase(){
+        ContentValues values = new ContentValues();
         if (movies == null){
-            helper.insert(tvShows.getId(),tvShows.getImageTvShow(),tvShows.getTitleTvShow(),tvShows.getOverviewTvShow());
+//            helper.insert(tvShows.getId(),tvShows.getImageTvShow(),tvShows.getTitleTvShow(),tvShows.getOverviewTvShow());
+            values.put(DbHelper.COLUMN_ID,tvShows.getId());
+            values.put(DbHelper.COLUMN_POSTER,tvShows.getImageTvShow());
+            values.put(DbHelper.COLUMN_TITLE,tvShows.getTitleTvShow());
+            values.put(DbHelper.COLUMN_OVERVIEW,tvShows.getOverviewTvShow());
+            getContentResolver().insert(DbHelper.CONTENT_URI,values);
         }else if (tvShows == null){
-            helper.insert(movies.getId(),movies.getImageMovie(),movies.getTitleMovie(),movies.getOverviewMovie());
+//            helper.insert(movies.getId(),movies.getImageMovie(),movies.getTitleMovie(),movies.getOverviewMovie());
+            values.put(DbHelper.COLUMN_ID,movies.getId());
+            values.put(DbHelper.COLUMN_POSTER,movies.getImageMovie());
+            values.put(DbHelper.COLUMN_TITLE,movies.getTitleMovie());
+            values.put(DbHelper.COLUMN_OVERVIEW,movies.getOverviewMovie());
+            getContentResolver().insert(DbHelper.CONTENT_URI,values);
         }
     }
 
     private void removeFromDatabase(){
         if (movies == null){
-            helper.delete(tvShows.getId());
+//            helper.delete(tvShows.getId());
+            getContentResolver().delete(DbHelper.CONTENT_URI,DbHelper.COLUMN_ID+"="+tvShows.getId(),null);
         }else if (tvShows == null){
-            helper.delete(movies.getId());
+//            helper.delete(movies.getId());
+            getContentResolver().delete(DbHelper.CONTENT_URI,DbHelper.COLUMN_ID+"="+movies.getId(),null);
         }
     }
 }

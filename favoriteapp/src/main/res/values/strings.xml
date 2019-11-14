@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aplikasi Disukai</string>
+    <string name="title_movie">Film</string>
+    <string name="overwrite">Sinopsis</string>
+    <string name="settings">Pengaturan</string>
+    <string name="title_tv">Acara TV</string>
+    <string name="favorite">Disukai</string>
+    <string name="content_description">todo</string>
+    <string name="data_not_available">Data tidak ditemukan</string>
+</resources>

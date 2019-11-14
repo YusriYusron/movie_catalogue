@@ -3,13 +3,14 @@ package com.yusriyusron.tvmovies.controller.adapter;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.yusriyusron.tvmovies.R;
@@ -25,8 +26,16 @@ public class FavoriteAdapter extends RecyclerView.Adapter<FavoriteAdapter.Favori
 
     private Movie movies;
 
+    public FavoriteAdapter(Context context) {
+        this.context = context;
+    }
+
     public FavoriteAdapter(Context context, ArrayList<Movie> listMovie) {
         this.context = context;
+        this.listMovie = listMovie;
+    }
+
+    public void setListMovie(ArrayList<Movie> listMovie) {
         this.listMovie = listMovie;
     }
 
@@ -52,7 +61,7 @@ public class FavoriteAdapter extends RecyclerView.Adapter<FavoriteAdapter.Favori
             @Override
             public void onClick(View view) {
                 movies = listMovie.get(i);
-                makeIntent(DetailActivity.class);
+                makeIntent();
             }
         });
     }
@@ -62,12 +71,12 @@ public class FavoriteAdapter extends RecyclerView.Adapter<FavoriteAdapter.Favori
         return listMovie.size();
     }
 
-    public class FavoriteTvViewHolder extends RecyclerView.ViewHolder {
+    class FavoriteTvViewHolder extends RecyclerView.ViewHolder {
         final ImageView imageViewMovie;
         final TextView textViewTitleMovie;
         final TextView textViewOverviewMovie;
 
-        public FavoriteTvViewHolder(@NonNull View itemView) {
+        FavoriteTvViewHolder(@NonNull View itemView) {
             super(itemView);
             imageViewMovie = itemView.findViewById(R.id.image_movies);
             textViewTitleMovie = itemView.findViewById(R.id.title_movie);
@@ -75,8 +84,8 @@ public class FavoriteAdapter extends RecyclerView.Adapter<FavoriteAdapter.Favori
         }
     }
 
-    private void makeIntent(Class destination){
-        Intent intent = new Intent(context,destination);
+    private void makeIntent(){
+        Intent intent = new Intent(context,DetailActivity.class);
         intent.putExtra(DetailActivity.MOVIES,movies);
         context.startActivity(intent);
         ((Activity)context).finish();

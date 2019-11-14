@@ -4,22 +4,28 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.net.Uri;
 import android.util.Log;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
 public class DbHelper extends SQLiteOpenHelper {
 
+    //Content Provider
+    public static final String AUTHORITY = "com.yusriyusron.tvmovies";
+    private static final String SCHEME = "content";
+
     private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "favorite.db";
-    private static final String TABLE_NAME = "favorite";
+    public static final String TABLE_NAME = "favorite";
 
-    private static final String COLUMN_ID = "id";
-    private static final String COLUMN_POSTER = "poster";
-    private static final String COLUMN_TITLE = "title";
-    private static final String COLUMN_OVERVIEW = "overview";
+    public static final String COLUMN_ID = "id";
+    public static final String COLUMN_POSTER = "poster";
+    public static final String COLUMN_TITLE = "title";
+    public static final String COLUMN_OVERVIEW = "overview";
+
+    public static final String[] ALL_COLUMN = {COLUMN_ID,COLUMN_POSTER,COLUMN_TITLE,COLUMN_OVERVIEW};
 
     public DbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -42,8 +48,9 @@ public class DbHelper extends SQLiteOpenHelper {
 
     public void insert(String id, String poster, String title, String overview){
         SQLiteDatabase database = this.getWritableDatabase();
+        String cleanTitle = title.replace("'","");
         String cleanOverview = overview.replace("'","");
-        String query = "INSERT INTO "+TABLE_NAME+" (id,poster,title,overview) VALUES ('"+id+"','"+poster+"','"+title+"','"+cleanOverview+"')";
+        String query = "INSERT INTO "+TABLE_NAME+" (id,poster,title,overview) VALUES ('"+id+"','"+poster+"','"+cleanTitle+"','"+cleanOverview+"')";
         database.execSQL(query);
     }
 
@@ -84,4 +91,10 @@ public class DbHelper extends SQLiteOpenHelper {
         database.close();
         return list;
     }
+
+    //Content Provider
+    public static final Uri CONTENT_URI = new Uri.Builder().scheme(SCHEME)
+            .authority(AUTHORITY)
+            .appendPath(TABLE_NAME)
+            .build();
 }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Size for content -->
+    <dimen name="size_4">4dp</dimen>
+    <dimen name="size_16">16dp</dimen>
+    <dimen name="size_150">150dp</dimen>
+    <dimen name="size_300">300dp</dimen>
+
+    <!-- Size for font -->
+    <dimen name="font_16">16sp</dimen>
+    <dimen name="font_24">24sp</dimen>
+</resources>

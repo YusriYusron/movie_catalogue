@@ -1,0 +1,256 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:2:1-54:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\85d145cc93ce2e6a1368136b6a4df6fd\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f1a4ee32a390b4c7f09e875fd64f0f25\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ed38f8a05c4b6c4fe96f01f7ae8d8551\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3dd0f6edc597762c89957e1e2e9a6246\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\407c1f60b88fc5a7ae0dca378ba25944\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\229c22e7297bd815e0b9fbbbfd8d6277\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\03ad42c38ad5cff2af4007e9b0ca83c8\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\0bc3675bb186c1c3bc55ef9f8dfff6d1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\22be847cca860c1e30e6cbc821f98927\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\697799aac8ad9e9b6c787e8c1098a4e9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\eaaa1caf43fad825666998cc22cbd8e7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d6f4af45386cdd57c1b3aa09a8b5d7e4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b5d7784cdf78e1f4eb1811d5112ab0e2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3b084ade7d34e7ec08a91b421c009aa3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\468b97f21a33e00c22cb24cedddd17f3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b5a2b1037826b739da193e77f93012f5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e36018630368b86e7771d3d32c3d4f83\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\8ee722d159c9771e9fc7dcdf81a87d52\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e18c83a47e34608ddb837daae4b8cb1b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\595f2bda91496de55d779c66ccb94281\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\4e2ca62b2984290848e4faa94493a10d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\194ae18a9d767fb3818906a9deb39cf6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\63eede0f4389604d7cfcc9096f2611c3\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6eaf878a4f0558142e16d9bbd8d4f9b9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\078daab9036941991bf748731d3db20a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\68147c876f81ad3ff7e669309a9fe91a\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fc3bb1c0eaadbc587495d15b9c06b94d\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fce776f8c79dd25a32845c59cab3408c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f99c25a095db00ceebc55d4982d8280\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\49dfbf25f533d2b5c96af9510831693f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\640884ec773e793ccb04b74eb8f91f10\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\936bd2cc29c33c6075f5bc58570eb0c0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\2002bc4ffea10fb2d069b63af59a724c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6316e9ad17ec7385b6f6c8a04e8aa2fc\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\09fea0227b0cb84460ad2209d68b4e39\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\33e81bf0505b3e14b47e83b902631a55\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ec3bc422b096f1b02f575e06e0e1bd59\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:2:1-54:12
+	package
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:5:22-64
+permission#com.yusriyusron.tvmovies.READ_DATABASE
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:7:5-105
+	android:protectionLevel
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:7:71-103
+	android:name
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:7:17-70
+permission#com.yusriyusron.tvmovies.WRITE_DATABASE
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:8:5-106
+	android:protectionLevel
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:8:72-104
+	android:name
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:8:17-71
+application
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:10:5-51:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\85d145cc93ce2e6a1368136b6a4df6fd\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\85d145cc93ce2e6a1368136b6a4df6fd\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ed38f8a05c4b6c4fe96f01f7ae8d8551\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ed38f8a05c4b6c4fe96f01f7ae8d8551\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3dd0f6edc597762c89957e1e2e9a6246\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3dd0f6edc597762c89957e1e2e9a6246\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\407c1f60b88fc5a7ae0dca378ba25944\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\407c1f60b88fc5a7ae0dca378ba25944\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\63eede0f4389604d7cfcc9096f2611c3\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\63eede0f4389604d7cfcc9096f2611c3\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\68147c876f81ad3ff7e669309a9fe91a\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\68147c876f81ad3ff7e669309a9fe91a\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fc3bb1c0eaadbc587495d15b9c06b94d\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fc3bb1c0eaadbc587495d15b9c06b94d\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\63eede0f4389604d7cfcc9096f2611c3\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.yusriyusron.tvmovies.view.SettingsActivity
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:17:9-59
+	android:name
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:17:19-56
+activity#com.yusriyusron.tvmovies.view.DetailActivity
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:19:9-57
+	android:name
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:19:19-54
+activity#com.yusriyusron.tvmovies.view.MainActivity
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:20:19-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:24:27-74
+provider#com.yusriyusron.tvmovies.model.provider.TvMoviesProvider
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:28:9-34:81
+	android:readPermission
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:33:13-76
+	android:enabled
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:31:13-35
+	android:authorities
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:30:13-59
+	android:exported
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:32:13-36
+	android:writePermission
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:34:13-78
+	android:name
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:29:13-60
+receiver#com.yusriyusron.tvmovies.view.widget.ImageBannerWidget
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:36:9-44:20
+	android:name
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:36:19-64
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:37:13-39:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:38:17-84
+	android:name
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:38:25-81
+meta-data#android.appwidget.provider
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:41:13-43:68
+	android:resource
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:43:17-65
+	android:name
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:42:17-58
+receiver#com.yusriyusron.tvmovies.controller.receiver.ReleaseReceiver
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:46:9-73
+	android:name
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:46:19-70
+service#com.yusriyusron.tvmovies.view.widget.StackWidgetService
+ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:48:9-50:72
+	android:permission
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:50:13-69
+	android:name
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml:49:13-59
+uses-sdk
+INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\85d145cc93ce2e6a1368136b6a4df6fd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\85d145cc93ce2e6a1368136b6a4df6fd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f1a4ee32a390b4c7f09e875fd64f0f25\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f1a4ee32a390b4c7f09e875fd64f0f25\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ed38f8a05c4b6c4fe96f01f7ae8d8551\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ed38f8a05c4b6c4fe96f01f7ae8d8551\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3dd0f6edc597762c89957e1e2e9a6246\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3dd0f6edc597762c89957e1e2e9a6246\AndroidManifest.xml:7:5-43
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\407c1f60b88fc5a7ae0dca378ba25944\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\407c1f60b88fc5a7ae0dca378ba25944\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\229c22e7297bd815e0b9fbbbfd8d6277\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\229c22e7297bd815e0b9fbbbfd8d6277\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\03ad42c38ad5cff2af4007e9b0ca83c8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\03ad42c38ad5cff2af4007e9b0ca83c8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\0bc3675bb186c1c3bc55ef9f8dfff6d1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\0bc3675bb186c1c3bc55ef9f8dfff6d1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\22be847cca860c1e30e6cbc821f98927\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\22be847cca860c1e30e6cbc821f98927\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\697799aac8ad9e9b6c787e8c1098a4e9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\697799aac8ad9e9b6c787e8c1098a4e9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\eaaa1caf43fad825666998cc22cbd8e7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\eaaa1caf43fad825666998cc22cbd8e7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d6f4af45386cdd57c1b3aa09a8b5d7e4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d6f4af45386cdd57c1b3aa09a8b5d7e4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b5d7784cdf78e1f4eb1811d5112ab0e2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b5d7784cdf78e1f4eb1811d5112ab0e2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3b084ade7d34e7ec08a91b421c009aa3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3b084ade7d34e7ec08a91b421c009aa3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\468b97f21a33e00c22cb24cedddd17f3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\468b97f21a33e00c22cb24cedddd17f3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b5a2b1037826b739da193e77f93012f5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b5a2b1037826b739da193e77f93012f5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e36018630368b86e7771d3d32c3d4f83\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e36018630368b86e7771d3d32c3d4f83\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\8ee722d159c9771e9fc7dcdf81a87d52\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\8ee722d159c9771e9fc7dcdf81a87d52\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e18c83a47e34608ddb837daae4b8cb1b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e18c83a47e34608ddb837daae4b8cb1b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\595f2bda91496de55d779c66ccb94281\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\595f2bda91496de55d779c66ccb94281\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\4e2ca62b2984290848e4faa94493a10d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\4e2ca62b2984290848e4faa94493a10d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\194ae18a9d767fb3818906a9deb39cf6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\194ae18a9d767fb3818906a9deb39cf6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\63eede0f4389604d7cfcc9096f2611c3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\63eede0f4389604d7cfcc9096f2611c3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6eaf878a4f0558142e16d9bbd8d4f9b9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6eaf878a4f0558142e16d9bbd8d4f9b9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\078daab9036941991bf748731d3db20a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\078daab9036941991bf748731d3db20a\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\68147c876f81ad3ff7e669309a9fe91a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\68147c876f81ad3ff7e669309a9fe91a\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fc3bb1c0eaadbc587495d15b9c06b94d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fc3bb1c0eaadbc587495d15b9c06b94d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fce776f8c79dd25a32845c59cab3408c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fce776f8c79dd25a32845c59cab3408c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f99c25a095db00ceebc55d4982d8280\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3f99c25a095db00ceebc55d4982d8280\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\49dfbf25f533d2b5c96af9510831693f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\49dfbf25f533d2b5c96af9510831693f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\640884ec773e793ccb04b74eb8f91f10\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\640884ec773e793ccb04b74eb8f91f10\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\936bd2cc29c33c6075f5bc58570eb0c0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\936bd2cc29c33c6075f5bc58570eb0c0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\2002bc4ffea10fb2d069b63af59a724c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\2002bc4ffea10fb2d069b63af59a724c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6316e9ad17ec7385b6f6c8a04e8aa2fc\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6316e9ad17ec7385b6f6c8a04e8aa2fc\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\09fea0227b0cb84460ad2209d68b4e39\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\09fea0227b0cb84460ad2209d68b4e39\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\33e81bf0505b3e14b47e83b902631a55\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\33e81bf0505b3e14b47e83b902631a55\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ec3bc422b096f1b02f575e06e0e1bd59\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ec3bc422b096f1b02f575e06e0e1bd59\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Asus\Music\Si Ateng\KP\Dicoding\Project\Submission\FIX\movie_catalogue\app\src\main\AndroidManifest.xml
